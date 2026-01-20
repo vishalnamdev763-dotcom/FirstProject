@@ -1,0 +1,189 @@
+@font-face {
+    font-family:joy ;
+    src: url(font/SuisseIntl-Regular.woff2);
+}
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Gilroy';
+   box-sizing: border-box; 
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+}
+.cursor{
+    height: 7vw;
+    width: 7vw;
+    background-color: #FF5F38;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+}
+.cursor h5{
+    font-size: 1.16vw;
+    font-weight: 500;
+}
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* padding: 5vw; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: aqua; */
+    padding:3vw 3vw;
+    position: relative;
+}
+nav h3{
+    font-size: 1.8vw
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+    color: #fff;
+}
+.tag{
+    display: flex;
+    list-style-type: none;
+}
+.content h1{
+    font-family:joy;
+    font-size: 27vw;
+    font-weight: 100;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+   }
+.page2 p{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 5%;
+    position: absolute;
+    /* display: flex; */
+}
+.pera2{
+    color: white;
+    font-size: larger;
+    padding-left: 5%;
+    
+}
+.pera1{
+    display:flex;
+    align-items: center;
+    justify-self: center;
+    margin-top:25%;
+}
+#p2{
+    margin-top: 25%;
+}
+.page3{
+    height: 100vh;
+}
+.page3 img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    transition: all ease 0.5s;
+
+}
+.page3 video{
+    position:relative;
+    width: 100%;
+    height: 775px;
+    object-fit: cover;
+}
+.page3:hover video{
+    opacity:0 ;
+}
+.page4{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+}
+.page4-top{
+    /* background-color: #FF5F38; */
+    text-align: center;
+}
+.page4-top h4{
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.page4-top h4 span{
+    font-size: 0.7vw;
+    background-color: black;
+    color: #fff;
+    padding: 4px,8px;
+    border-radius: 10px;
+}
+.page4-top h2{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.element{
+    height: 75vh;
+    width: 100%;
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+}
+.box{
+    height: 100%;
+    width: 32.5%;
+    /* background-color: #FF5F38; */
+    position: relative;
+}
+.box video{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: center;
+}
+.box img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all linear 0.8s;
+}
+.element .box:hover img{
+    opacity: 0;
+}
+
+
